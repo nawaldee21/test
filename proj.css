@@ -1,0 +1,76 @@
+body{
+    background: khaki;
+    color: mistyrose;
+   
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+    color: mistyrose;
+    font-family: Georgia;
+    background: url(tic-tac.jpg) no-repeat;
+    position:relative;
+    display: inline-block;
+    height:90px;
+  background-size: cover;
+  width:100%;
+  }
+  .clearfix{
+    clear: both;
+  }
+  #box{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: LemonChiffon ;
+    padding-bottom: 30px;
+    border-radius: 10px;
+  }
+  #message{
+    background:khaki;
+    color: gray;
+    font-family: "Lucida Console", Monaco, monospace;
+  }
+  #gameBoard li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    background: LavenderBlush ;
+    color: mistyrose;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+  }
+  #gameBoard li:hover, #reset:hover, #playAgain:hover{
+    cursor: pointer;
+    background: khaki;
+  }
+  #reset{
+    border: 0;
+    background: mistyrose;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px
+  }
+
+  #playAgain{
+    border: 0;
+    background: mistyrose;
+    color: #fff;
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+ 
+  #gameBoard > .winner{
+    background-color: red;
+  }
+  footer{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
