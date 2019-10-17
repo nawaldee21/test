@@ -6,7 +6,7 @@
 
 ## Demo:
 
-[Tic Tac Toe](http://127.0.0.1:5501/proj.html)
+[Tic Tac Toe](https://nawaldee21.github.io/test/)
 
 ## Technology:
 HTML
